@@ -7,7 +7,7 @@ namespace CurrencyAPI.DbContexts
     {
         public CurrencyDbContext(DbContextOptions<CurrencyDbContext> options) : base(options) { }
 
-        public DbSet<Currency> Currencies { get; set; }
+        public DbSet<Currency> R_CURRENCY { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
